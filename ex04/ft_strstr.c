@@ -6,7 +6,7 @@
 /*   By: rcollas <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/21 14:07:43 by rcollas           #+#    #+#             */
-/*   Updated: 2021/03/22 08:15:55 by rcollas          ###   ########.fr       */
+/*   Updated: 2021/03/22 12:36:14 by rcollas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ char	*ft_strstr(char *str, char *to_find)
 		while (str[i] == to_find[j])
 		{
 			if (to_find[j + 1] == '\0')
-				return (&str[j + 1]);
+				return (&str[j + 2]);
 			i++;
 			j++;
 		}
